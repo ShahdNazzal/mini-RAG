@@ -33,10 +33,6 @@ $ conda activate mini-rag
 export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
 
-### (Optional) Run Ollama Local LLM Server using Colab + Ngrok
-
-- Check the [notebook](https://colab.research.google.com/drive/1KNi3-9KtP-k-93T3wRcmRe37mRmGhL9p?usp=sharing) + [Video](https://youtu.be/-epZ1hAAtrs)
-
 ## Installation
 
 ### Install the required packages
@@ -112,7 +108,3 @@ $ python -m celery -A celery_app flower --conf=flowerconfig.py
 
 
 open your browser and go to `http://localhost:5555` to see the dashboard.
-
-## POSTMAN Collection
-
-Download the POSTMAN collection from [/assets/mini-rag-app.postman_collection.json](/assets/mini-rag-app.postman_collection.json)
